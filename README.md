@@ -3,6 +3,8 @@
 Summary:
 In this project, you will study User Stories (US), understand their benefits, learn how to create them and their associated acceptance criteria and test scenarios. You will also discuss user stories with others involved in the development process and understand the positive outcome of the discussion.
 
+💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
+
 ## Contents
 
 1. [Chapter I](#chapter-i) \
@@ -215,5 +217,3 @@ Discuss and agree on the US developed.
    3. value - confirm that the business value of each US is understood; if the business value is not understood, it is a reason to enlarge the US or rework it.
 4. Identify each change, explain the reason for the change, record it.
 5. Indicate your answers in the file ex02\_<product prefix>\_us.docx.
-
-💡 [Tap here](https://forms.yandex.ru/cloud/65b90985c09c0208f7f1dad7/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
