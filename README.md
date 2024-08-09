@@ -93,9 +93,9 @@ US Composition:
 US is usually accompanied by the development of acceptance criteria. Acceptance criteria define the boundaries of the story and provide insight into what behavior or quality the solution must provide in order to deliver value to the stakeholder. 
 
 *Composed of:*
-*Preсondition (Given)* - the user's role, circumstances;
-*Action (Trigger) (When)* - some action is carried out by the user with the help of the system;
-*Result (Then)* - why, what value to get.
+*Preсondition (Given)* — the user's role, circumstances;
+*Action (Trigger) (When)* — some action is carried out by the user with the help of the system;
+*Result (Then)* — why, what value to get.
 
 *Format:*
 Given [*precondition*], when [*a specific action is performed*], then [*a result must occur*] . 
@@ -127,9 +127,9 @@ For example:
    2. value for a user,
    3. actions carried out under certain conditions.
 2. Apply the 3 C's ([User Stories Guide](https://habr.com/ru/post/577420)):
-   1. Card - compactness, "fits on a card";
-   2. Conversation - discussion of US;
-   3. Confirmation - confirmation by the user and the development team.
+   1. Card — compactness, "fits on a card";
+   2. Conversation — discussion of US;
+   3. Confirmation — confirmation by the user and the development team.
 3. Check the INVEST criteria ([Basics of user stories](https://habr.com/ru/company/luxoft/blog/84030/)):
    1. Independent: seek US independence;
    2. Negotiable: ability to discuss with the user, the customer, the team;
@@ -171,15 +171,15 @@ Create at least 2 US for a manager for task 1:
 1. Define at least two of the manager's needs in our system.
 2. Write a US for each need:
    1. specify the US identifier;
-   2. specify the US header - an active verb expression of the user's goal;
+   2. specify the US header — an active verb expression of the user's goal;
    3. describe US:
       1. specify the user role, 
       2. specify the benefit (value) to the role,
       3. specify the required action(s).
 3. Develop acceptance criteria for one of the US, describe:
-   1. precondition - the circumstances, the role of the user;
+   1. precondition — the circumstances, the role of the user;
    2. actions performed by the user in the system;
-   3. result - value to the user.
+   3. result — value to the user.
 4. Develop a test scenario for the second US, describe:
    1. preconditions: on what data to check, what settings, what actions should precede;
    2. actions: what should be done by the user and the system;
@@ -212,8 +212,8 @@ Discuss and agree on the US developed.
       3. What changes have been made to the US;
       4. Reasons for the changes.
 3. When discussing check the three characteristics of INVEST:
-   1. independence of each US; if there is a dependency - make them independent. If not - specify the dependency: which US depends on which (this will be needed for prioritization - in what order to implement US, in what order to check);
-   2. negotiability of each US: whether it was discussed with "user", "customer", "developer" - indicate what conclusions were reached;
-   3. value - confirm that the business value of each US is understood; if the business value is not understood, it is a reason to enlarge the US or rework it.
+   1. independence of each US; if there is a dependency — make them independent. If not — specify the dependency: which US depends on which (this will be needed for prioritization — in what order to implement US, in what order to check);
+   2. negotiability of each US: whether it was discussed with "user", "customer", "developer" — indicate what conclusions were reached;
+   3. value — confirm that the business value of each US is understood; if the business value is not understood, it is a reason to enlarge the US or rework it.
 4. Identify each change, explain the reason for the change, record it.
 5. Indicate your answers in the file ex02\_<product prefix>\_us.docx.
