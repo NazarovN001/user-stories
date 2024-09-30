@@ -67,8 +67,8 @@ A user story is a short, concise description of a value to the user and the func
 
 US is one or two sentences on a small card (sticker). US does not contain everything there is to know about a stakeholder's need. US helps to identify the most important stories and to prioritize the results of the functionality. It becomes clear what should be discussed, worked on in detail, and developed first. Information is added during the discussion and implementation process.
 Tools used: stickerboard, miro, trello, … jira, confluence, any text editor.
-US must be:
 
+US must be:
 - short,
 - simple,
 - valuable (fill a need), 
@@ -76,7 +76,7 @@ US must be:
 - business-like (described in business or user terms).
   You can read more about US in Jeff Patton's book "User Stories. The Art of Agile Software Development" and Mike Cohn's "User Stories Applied. For Agile Software Development.
 
-***US Description***
+***US Description***\
 US Composition:
 
 - header,
@@ -84,35 +84,35 @@ US Composition:
 - acceptance criteria,
 - test scenarios.
 
-*Header:* Describes the action the user wants to perform using the system. It is usually an active verb phrase of the goal.
+*Header* describes the action the user wants to perform using the system. It is usually an active verb phrase of the goal.
 
-* US Body Format:* **As** [*user role*], **I want/can** [*do this and that*] **to** [*gain some benefit*]. 
-  *Example:* "I, as a movie theater viewer, want to buy a ticket online in advance to see the movie at a convenient time."
+* US Body Format:* **As** [*user role*], **I want/can** [*do this and that*] **to** [*gain some benefit*].\
+  *Example:* "I, as a cinema viewer, want to buy a ticket online in advance to see the movie at a convenient time."
 
 ***Acceptance Criteria:***
 US is usually accompanied by the development of acceptance criteria. Acceptance criteria define the boundaries of the story and provide insight into what behavior or quality the solution must provide in order to deliver value to the stakeholder. 
 
 *Composed of:*
-*Preсondition (Given)* — the user's role, circumstances;
-*Action (Trigger) (When)* — some action is carried out by the user with the help of the system;
-*Result (Then)* — why, what value to get.
+- *Preсondition (Given)* — the user's role, circumstances;
+- *Action (Trigger) (When)* — some action is carried out by the user with the help of the system;
+- *Result (Then)* — why, what value to get.
 
 *Format:*
-Given [*precondition*], when [*a specific action is performed*], then [*a result must occur*] . 
-For example: "When I buy a movie theater ticket online, then I can buy a ticket for a session given my free time".
+Given [*precondition*], when [*a specific action is performed*], then [*a result must occur*].\ 
+For example: "When I buy a cinema ticket online, then I can buy a ticket for a session given my free time".
 
 ***Test Scenarios:***
-A test scenario is a description of what is supposed to be tested. On what data, what settings, what actions should be performed during testing. And what is the expected result. 
+A test scenario is a description of what is supposed to be tested. What data, what settings, what actions should be performed during the test. And what is the expected result. \
 For example:
-*Precondition:* The user is registered in the movie theater network (has an online account). User has selected a movie and a date.
-*Action:* The system shows available sessions. User selects a session, views the available seats and selects a free seat in the movie theater.
-*Expected result:* The system prompts the user to pay for the ticket.
+- *Precondition:* the user is registered in the cinema network (has an online account). The user has selected a movie and date.
+- *Action:* the system displays available sessions. The user selects a session, views the available seats, and selects an available seat in the cinema.
+- *Expected result:* the system prompts the user to pay for the ticket.
 
 ***US Advantages:***
 
 - Small implementable and testable pieces of functionality;
-- Easy to understand for stakeholders;
-- Focus on benefit, value, allows for improved process understanding.
+- Easy for stakeholders to understand;
+- Focus on benefit, value, allows for better process understanding.
 
 ***US Disadvantages:***
 
@@ -124,7 +124,7 @@ For example:
 
 1. Describe US in the following order:
    1. user role, preconditions,
-   2. value for a user,
+   2. value to a user,
    3. actions carried out under certain conditions.
 2. Apply the 3 C's ([User Stories Guide](https://habr.com/ru/post/577420)):
    1. Card — compactness, "fits on a card";
@@ -134,9 +134,9 @@ For example:
    1. Independent: seek US independence;
    2. Negotiable: ability to discuss with the user, the customer, the team;
    3. Valuable: identify the usefulness of user actions described in the US;
-   4. Estimable: estimation of costs and work of middle and above level specialists
+   4. Estimable: estimate costs and work of middle and higher level specialists
    5. Small: autonomy and small size;
-   6. Testable: apply
+   6. Testable: apply:
       1. Acceptance criteria,
       2. Test scenarious.
 
@@ -148,7 +148,7 @@ For example:
 
 The management of a chain of barbershops decided to implement an online booking system. The main objective is to develop the business by expanding the customer base through the possibility of online registration, as well as to reduce employee labour costs and manual labour by automatically informing customers through communication channels. 
 
-Both registered and unregistered visitors can book an appointment on the website. When making an appointment, they can select the type of service: hairdressing or cosmetology, as well as the service itself, the master and the time from the available intervals. The system should provide automatic sending of reminders to clients through the communication channel chosen by the client (Telegram, WhatsApp, VK, sms) according to the schedule set by the manager. After receiving a service, the system offers the client to evaluate the service and write suggestions on how to improve the work.
+Both registered and unregistered visitors can book an appointment on the website. When making an appointment, they can select the type of service: hairdressing or cosmetology, as well as the service itself, the master and the time from the available intervals. The system should provide automatic sending of reminders to clients through the communication channel chosen by the client (Telegram, WhatsApp, VK, SMS) according to the schedule set by the manager. After receiving a service, the system offers the client to evaluate the service and write suggestions on how to improve the work.
 
 The schedule of masters and the services provided by each master should be entered by the manager, who may be more than one person. This person is also responsible for keeping the schedule up to date and adjusting it if necessary, communicating with customers manually, marking the service, charging and accepting payment, sending the payment data to the accounting department. The manager can also receive reports on completed services and view customer feedback.
 
@@ -202,7 +202,7 @@ Create at least 4 more US's for task 1.
 Discuss and agree on the US developed.
 
 1. Find one or more people among your fellow students or friends with whom you can discuss US by playing the roles of "user", "customer", "developer" one by one or together. 
-2. When discussing, check that the conditions of 3 C are met:
+2. During the discussion, make sure that the conditions of 3 Cs are met:
    1. Card: if the US doesn't fit enough, then split it into two or more or rework the US differently;
    2. Conversation: Discuss each of the US with each role. Refine the US if necessary;
    3. Confirmation: as a result of discussion and refinement, harmonize US with each role;

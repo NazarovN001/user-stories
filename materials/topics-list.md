@@ -1,16 +1,16 @@
-Hello, student of School21!😉
+Hello, School21 student! 😉
 
-To make it easier for you to navigate the material, we have prepared a list of topics that you will learn in this project.
+To help you navigate through the material, we have prepared a list of topics that you will learn in this project.
 
-We will study:
+We will learn:
 - User Story;
 - Structure of US;
-- Acceptance Criteria;
-- Test Scenarios;
-- Advantages and limitations of US;
-- Recommendations for the use of US.
+- Acceptance criteria;
+- Test scenarios;
+- Benefits and limitations of US;
+- Recommendations for using US.
 
-Now, knowing what awaits you in this project, you can slowly begin to study the topics listed above.😇
+Now that you know what to expect in this project, you can slowly start studying the topics listed above. 😇
 
 We have also prepared a list of recommended software:
 - Microsoft Office (Microsoft Word).
